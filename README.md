@@ -8,4 +8,4 @@
 ![lyrics gif](./screenshot/lyrics.gif "")
 ![wave gif](./screenshot/wave.gif "")
 ![slidetounlock gif](./screenshot/slidetounlock.gif "")
-![slidetounlockroundedicon gif](./screenshot/slidetounlockroundedicon.gif "")
+![roundedicon gif](./screenshot/roundedicon.gif "")
