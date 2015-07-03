@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShaderDemo</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="basic">Basic</string>
+	<string name="eye">WeChat Eye</string>
+	<string name="lyrics">Lyrics</string>
+	<string name="wave">Wave</string>
+	<string name="flash">Flash</string>
+	<string name="roundedicon">Rounded Icon</string>
+</resources>

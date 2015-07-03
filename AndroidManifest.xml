@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shaderdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.shaderdemo.basic.BasicActivity" android:label="@string/basic" />
+        <activity android:name="com.example.shaderdemo.eye.EyeActivity" android:label="@string/eye"/>
+        <activity android:name="com.example.shaderdemo.lyrics.LyricsActivity" android:label="@string/lyrics"/>
+        <activity android:name="com.example.shaderdemo.wave.WaveActivity" android:label="@string/wave" />
+        <activity android:name="com.example.shaderdemo.flash.FlashActivity" android:label="@string/flash" android:theme="@android:style/Theme.Holo.Light.NoActionBar.TranslucentDecor"/>
+        <activity android:name="com.example.shaderdemo.roundicon.RoundedIconActivity" android:label="@string/roundedicon" />
+    </application>
+
+</manifest>
